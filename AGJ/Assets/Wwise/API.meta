@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AGJ/Assets/Wwise/API.meta
 guid: a002d82876f334a8f84c8c7125b78b8d
+========
+guid: 3bb3fd41a19e24835b3640fe58386d16
+>>>>>>>> master:AGJ/Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
