@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AGJ/Assets/Wwise.meta
 guid: dd41f1443f81e472bac5d1c4d4bf2dcb
+========
+guid: d5dcc3861d8a548d29a39401c52bf39e
+>>>>>>>> master:AGJ/Assets/StreamingAssets.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
