@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 92824ac968ba6f46b2cbfe3de033e596
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: 92824ac968ba6f46b2cbfe3de033e596
     GuidInternal: 
-    m_lastTime: -8585160803340822586
+    m_lastTime: -8585160628536147770
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f974ef620feb554d81dc7ff78554221e
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f974ef620feb554d81dc7ff78554221e
     GuidInternal: 
-    m_lastTime: -8585160803341263676
+    m_lastTime: -8585159720202543727
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,13 +63,41 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b7c0204a480e7842b9a66b84c94ff446
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: b7c0204a480e7842b9a66b84c94ff446
     GuidInternal: 
-    m_lastTime: -8585160803341156619
-    List: []
+    m_lastTime: -8585159720202543727
+    List:
+    - name: Music
+      guid: c39eb523dbef214c882cdf8ecf7e3c94
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b7c0204a480e7842b9a66b84c94ff446
+      - ElementName: Music
+        ObjectType: 7
+        guid: c39eb523dbef214c882cdf8ecf7e3c94
+      Path: SoundBanks\Default Work Unit\Music
+    - name: SFX
+      guid: f5503704f90a3146839fd29807175968
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b7c0204a480e7842b9a66b84c94ff446
+      - ElementName: SFX
+        ObjectType: 7
+        guid: f5503704f90a3146839fd29807175968
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -77,13 +105,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 2a66dc7b4209f4468148d73da7e389d8
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 2a66dc7b4209f4468148d73da7e389d8
     GuidInternal: 
-    m_lastTime: -8585160803341219810
+    m_lastTime: -8585159720202654565
     List: []
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -91,13 +119,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 0c0c750681b640479bd9d4d610820349
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 0c0c750681b640479bd9d4d610820349
     GuidInternal: 
-    m_lastTime: -8585160803341127726
+    m_lastTime: -8585160628536197771
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -105,13 +133,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: bb207565abff3d49bc54e22582931708
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: bb207565abff3d49bc54e22582931708
     GuidInternal: 
-    m_lastTime: -8585160803341176634
+    m_lastTime: -8585160628536147770
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -119,13 +147,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c787960145f777419fc4094b24958e42
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: c787960145f777419fc4094b24958e42
     GuidInternal: 
-    m_lastTime: -8585160803341199256
+    m_lastTime: -8585160628536147770
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -133,10 +161,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ab2268618375164c814ffff18b519741
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: ab2268618375164c814ffff18b519741
     GuidInternal: 
-    m_lastTime: -8585160803340996543
+    m_lastTime: -8585160628536147770
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
