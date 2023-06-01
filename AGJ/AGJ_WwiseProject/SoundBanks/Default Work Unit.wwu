@@ -12,7 +12,10 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{23B59EC3-EFDB-4C21-882C-DF8ECF7E3C94}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dark Music" ID="{8DD840FC-554D-4B05-9F49-F30EDA68119A}" WorkUnitID="{8F42BBD1-C203-499B-AE06-D8956A65C7D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

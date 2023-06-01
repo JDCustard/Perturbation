@@ -84,10 +84,23 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{EBB079F3-3BC6-365D-E6F3-317CAAD3005F}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="622005106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>first music arp.wav</ShortName>
+					<CachePath>SFX/first music arp_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2279279248" Name="InteractiveMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="622005106"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B6148BCE-0EE9-B7C7-7FAD-55AC2497977A}</FileHash>
+	<FileHash>{3D1F539B-A054-33A9-18E6-5D5B47371AAF}</FileHash>
 </SoundBanksInfo>
