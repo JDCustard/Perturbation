@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" PersistMode="Standalone">
-			<ChildrenList>
-				<Folder Name="SFX" ID="{1BF24D01-DDF7-4B52-8209-9432DB86D07F}" ShortID="1009917663">
-					<ChildrenList>
-						<Event Name="footsteps" ID="{C688E62B-4CDE-4ED2-BE27-4F4B9C5BDB34}">
-							<ChildrenList>
-								<Action Name="" ID="{EC3F0BAB-47A4-4140-BA7B-E801A52A2980}" ShortID="987996630">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{D062614C-40D7-4E73-BE17-0D77E16C37CB}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Event Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}">
-					<ChildrenList>
-						<Action Name="" ID="{DF6C40AB-3087-4961-B873-03B38A6EAFD0}" ShortID="107130807">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dark Music" ID="{8DD840FC-554D-4B05-9F49-F30EDA68119A}" WorkUnitID="{8F42BBD1-C203-499B-AE06-D8956A65C7D6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>
