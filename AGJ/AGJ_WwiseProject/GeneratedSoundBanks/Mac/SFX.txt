@@ -6,7 +6,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	220601670	footstep_3	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_3		27056
 	340915065	footstep_5	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_5		27056
 	586436993	footstep_1	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_1		27056
-	589316885	footstep_7wav	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_7wav_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_7wav		27056
 	625569795	footstep_6	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_6		27056
 	789204459	footstep_4	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_4		27056
 	888506499	footstep_8	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Footsteps\footstep_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_8		27056

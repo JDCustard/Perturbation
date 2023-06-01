@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C948DEC4-7CCD-B456-831D-126F2CB01DF6}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{BA3C5D96-65AD-E1D6-5DCF-DBEEE1476A22}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -28,10 +28,6 @@
 				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_1.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
-				</File>
-				<File Id="589316885" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\footstep_7wav.wav</ShortName>
-					<CachePath>SFX/Footsteps/footstep_7wav_10C4C929.wem</CachePath>
 				</File>
 				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_6.wav</ShortName>
@@ -53,18 +49,23 @@
 						<MediaRef Id="220601670"/>
 						<MediaRef Id="340915065"/>
 						<MediaRef Id="586436993"/>
-						<MediaRef Id="589316885"/>
 						<MediaRef Id="625569795"/>
 						<MediaRef Id="789204459"/>
 						<MediaRef Id="888506499"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB591059-B33C-2812-61DA-3B166A10F511}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C05B0527-A08F-A800-AFCC-F4DD18663117}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1159390747" Name="Room_Medium_Tiled" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -73,11 +74,20 @@
 			<Busses>
 				<Bus Id="1616772529" Name="Master HDR"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1159390747"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
 		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F26B3DB5-757E-5C82-8558-529CBA4B9D8A}</FileHash>
+	<FileHash>{B6148BCE-0EE9-B7C7-7FAD-55AC2497977A}</FileHash>
 </SoundBanksInfo>
