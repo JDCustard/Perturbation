@@ -9,11 +9,59 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{7A7E82AD-BD97-FBBB-8CA9-743081452A51}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C948DEC4-7CCD-B456-831D-126F2CB01DF6}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="71225307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_2.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="220601670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_3.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_5.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_1.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="589316885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_7wav.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_7wav_10C4C929.wem</CachePath>
+				</File>
+				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_6.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_4.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888506499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_8.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_8_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
+					<MediaRefs>
+						<MediaRef Id="71225307"/>
+						<MediaRef Id="220601670"/>
+						<MediaRef Id="340915065"/>
+						<MediaRef Id="586436993"/>
+						<MediaRef Id="589316885"/>
+						<MediaRef Id="625569795"/>
+						<MediaRef Id="789204459"/>
+						<MediaRef Id="888506499"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB591059-B33C-2812-61DA-3B166A10F511}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -23,7 +71,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="1616772529" Name="Master HDR"/>
 			</Busses>
 		</SoundBank>
 		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
@@ -31,5 +79,5 @@
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B0415E78-70AE-06A0-EB04-FFFFF9DB2A3E}</FileHash>
+	<FileHash>{F26B3DB5-757E-5C82-8558-529CBA4B9D8A}</FileHash>
 </SoundBanksInfo>

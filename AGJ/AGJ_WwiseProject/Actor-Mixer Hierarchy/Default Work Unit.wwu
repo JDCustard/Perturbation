@@ -1,6 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{93DECB4C-0B2C-4BB4-92CC-BD736782D625}" ShortID="801683966">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Footsteps" ID="{D062614C-40D7-4E73-BE17-0D77E16C37CB}" ShortID="1041811877">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footstep_1" ID="{C465D377-86DA-44D1-B34E-AB6C4CFE2684}" ShortID="486269210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_1" ID="{0FFBD7F5-F604-4E63-8203-FB031B3415F3}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586436993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_1" ID="{0FFBD7F5-F604-4E63-8203-FB031B3415F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_2" ID="{72FA28CF-3CBA-49A6-A1D0-0843A7709DFA}" ShortID="880159723">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_2" ID="{6AF7CBCD-32C7-4E42-A421-652846CB7A3F}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71225307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_2" ID="{6AF7CBCD-32C7-4E42-A421-652846CB7A3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_3" ID="{4E6BBFE2-E887-45D2-BF5D-26063A803099}" ShortID="826339813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_3" ID="{59D7504D-D031-4637-83B6-10EE607479A6}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="220601670"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_3" ID="{59D7504D-D031-4637-83B6-10EE607479A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_4" ID="{AA169C31-84E6-4093-B23E-0C051BF7F4FA}" ShortID="876348638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_4" ID="{3C3C146C-8E8D-440F-B00C-A52E2AA4C07A}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789204459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_4" ID="{3C3C146C-8E8D-440F-B00C-A52E2AA4C07A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_5" ID="{815302E1-49B1-4458-815F-A331795A8FCF}" ShortID="103313233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_5" ID="{413D604F-D783-4EA0-8BAE-EA1122861FB1}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="340915065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_5" ID="{413D604F-D783-4EA0-8BAE-EA1122861FB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_6" ID="{689E97DD-50DC-41F1-B285-E23445A82754}" ShortID="639853991">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_6" ID="{D7DEA297-02FD-4465-92AE-CD9FA7C15830}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="625569795"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_6" ID="{D7DEA297-02FD-4465-92AE-CD9FA7C15830}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_7wav" ID="{2CA00A37-5055-4212-B476-F4A2FC3A9D61}" ShortID="6603170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_7wav" ID="{ED0867AC-9E5B-4C0A-AA82-C0D48F8D3D59}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_7wav.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589316885"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_7wav" ID="{ED0867AC-9E5B-4C0A-AA82-C0D48F8D3D59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_8" ID="{F9FB7686-F95F-457A-8696-3A1A184D62A2}" ShortID="951534107">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_8" ID="{1EA6EFAA-DFD5-46E1-B6DA-3A975AB827EE}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\footstep_8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888506499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_8" ID="{1EA6EFAA-DFD5-46E1-B6DA-3A975AB827EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

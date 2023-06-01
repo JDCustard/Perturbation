@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1FCECA7B-6078-446C-AEE7-51B6368F9DCE}">
 			<PropertyList>
+				<Property Name="Event Action List\{C688E62B-4CDE-4ED2-BE27-4F4B9C5BDB34}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -24,7 +25,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="aJwyJBZE20KvVH/WE1d6sgEAAAAAAAAA0KOeDQAAAADQ56YNAAAAAACXaAIAAAAA4JQDAgAAAAA0lEQAAAAAALAmSQ0AAAAAcC5HDQAAAAAIAAAAAAAAACjpIQAAAAAAUAVZAAAAAABvBlkAAAAAAFAFWQAAAAAAwJQDAgAAAADAlAMCAAAAAKgJagIAAAAAAQAAAFxcLNoY02lEpQWIa+AXGxoBAAAAAAAAANCjng0AAAAA0OemDQAAAAAAl2gCAAAAAOCUAwIAAAAANJREAAAAAACwJkkNAAAAAHAuRw0AAAAACAAAAAAAAAAo6SEAAAAAAFAFWQAAAAAAbwZZAAAAAABQBVkAAAAAAMCUAwIAAAAAwJQDAgAAAACoCWoCAAAAAAEAAAA="/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="XFws2hjTaUSlBYhr4BcbGgEAAAAAAAAAEGicDAAAAACg6vkMAAAAADCWUwIAAAAA4JT3AQAAAAA0lEQAAAAAAKDdowwAAAAAgOT5DAAAAAAIAAAAAAAAACjpIQAAAAAAUAVZAAAAAABvBlkAAAAAAFAFWQAAAAAAwJT3AQAAAADAlPcBAAAAAGgIVQIAAAAAAQAAAGicMiQWRNtCr1R/1hNXerIBAAAAAAAAABBonAwAAAAAoOr5DAAAAAAwllMCAAAAAOCU9wEAAAAANJREAAAAAACg3aMMAAAAAIDk+QwAAAAACAAAAAAAAAAo6SEAAAAAAFAFWQAAAAAAbwZZAAAAAABQBVkAAAAAAMCU9wEAAAAAwJT3AQAAAABoCFUCAAAAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -36,7 +37,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewA0AEEAMgAwAEMAMABCADcALQAwAEUANAA4AC0ANAAyADcAOAAtAEIAOQBBADYALQA2AEIAOAA0AEMAOQA0AEYARgA0ADQANgB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewAwAEEAOQBEAEEANAA3ADgALQA1ADcANwAzAC0ANAA1AEEAQQAtAEIAOABGAEMALQAzADAAQgBBAEQARQA3ADIAOQBGADYANgB9AAAAAAE="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1b4u6dewGRQSoghoH6L4h1oZtP+STC1qEKZO5JIc6q3Bw=="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel2\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
@@ -54,7 +55,7 @@
 				<Property Name="ProjectExplorer\QueriesSelectionChannel2\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\QueriesSelectionChannel2\x64_ProjectExplorer2LastExpandedState" Type="string" Value="4y3sI9g+gkusmZLiXy5Maw=="/>
 				<Property Name="ProjectExplorer\SelectionChannel1\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel1\CurrentTab" Type="int32" Value="2"/>
+				<Property Name="ProjectExplorer\SelectionChannel1\CurrentTab" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\SelectionChannel2\CurrentSearch" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\SelectionChannel2\CurrentTab" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\SessionsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>

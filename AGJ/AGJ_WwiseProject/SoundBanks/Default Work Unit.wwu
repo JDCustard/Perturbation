@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{4A20C0B7-0E48-4278-B9A6-6B84C94FF446}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{043750F5-0AF9-4631-839F-D29807175968}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{1BF24D01-DDF7-4B52-8209-9432DB86D07F}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps" ID="{C688E62B-4CDE-4ED2-BE27-4F4B9C5BDB34}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

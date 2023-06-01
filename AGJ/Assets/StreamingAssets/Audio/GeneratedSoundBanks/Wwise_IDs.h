@@ -11,6 +11,11 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
+    } // namespace EVENTS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -20,7 +25,7 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MASTER_HDR = 1616772529U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES
