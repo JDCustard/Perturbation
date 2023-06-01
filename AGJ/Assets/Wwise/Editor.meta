@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 <<<<<<<< HEAD:AGJ/Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
+<<<<<<< HEAD
+guid: 74680f9cc5a2f42db8cd6ee9e4ae7466
+=======
 guid: c60dd3e918ffdcf4d820089fc735e303
+>>>>>>> master
 ========
 guid: 5da3f1b9561be4714826acc5c6c7ff2d
 >>>>>>>> master:AGJ/Assets/Wwise/Editor.meta
