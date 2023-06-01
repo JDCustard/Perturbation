@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2279279248	InteractiveMusic			\Default Work Unit\InteractiveMusic	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	622005106	first music arp	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\first music arp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Dark Music\first music arp\first music arp		57153696
-

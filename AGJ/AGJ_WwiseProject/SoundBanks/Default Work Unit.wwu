@@ -4,18 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{4A20C0B7-0E48-4278-B9A6-6B84C94FF446}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{043750F5-0AF9-4631-839F-D29807175968}">
-					<ObjectInclusionList>
-						<ObjectRef Name="SFX" ID="{1BF24D01-DDF7-4B52-8209-9432DB86D07F}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="footsteps" ID="{C688E62B-4CDE-4ED2-BE27-4F4B9C5BDB34}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{23B59EC3-EFDB-4C21-882C-DF8ECF7E3C94}">
-					<ObjectInclusionList>
-						<ObjectRef Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}" WorkUnitID="{7BDC662A-0942-46F4-8148-D73DA7E389D8}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Dark Music" ID="{8DD840FC-554D-4B05-9F49-F30EDA68119A}" WorkUnitID="{8F42BBD1-C203-499B-AE06-D8956A65C7D6}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
