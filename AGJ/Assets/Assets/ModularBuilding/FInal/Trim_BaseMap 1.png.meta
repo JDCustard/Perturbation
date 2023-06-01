@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:AGJ/Assets/Assets/ModularBuilding/FInal/Trim_MaskMap.png.meta
-guid: a95e85131d1d2b548b061a8f0436e1f7
-========
-guid: 8e225fa91d77e45cdb78a1673a08713e
->>>>>>>> master:AGJ/Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/acoustictexture_nor.png.meta
+guid: fc238d8d7ffe6bc41bd0a6f3203a9392
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -11,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
