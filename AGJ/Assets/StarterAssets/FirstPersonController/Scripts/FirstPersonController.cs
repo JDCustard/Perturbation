@@ -64,7 +64,13 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
-	
+		public AK.Wwise.Event footstepsEvent;
+		[SerializeField]
+		private float footstepInterval = 0.5f; // The time interval between each footstep sound
+		private float timeSinceLastFootstep;
+
+
+
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
 #endif
@@ -196,7 +202,23 @@ namespace StarterAssets
 
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+
+
+			if (currentHorizontalSpeed > 0.5)
+			{
+				if (Time.time - timeSinceLastFootstep >= footstepInterval)
+				{
+					PlayFootstepSound();
+					timeSinceLastFootstep = Time.time;
+				}
+			}
 		}
+
+		private void PlayFootstepSound()
+		{
+			footstepsEvent.Post(gameObject); // Trigger the footstep event in Wwise
+		
+	}
 
 		private void JumpAndGravity()
 		{

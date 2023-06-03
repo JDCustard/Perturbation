@@ -9,27 +9,98 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{7A7E82AD-BD97-FBBB-8CA9-743081452A51}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{BA3C5D96-65AD-E1D6-5DCF-DBEEE1476A22}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="71225307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_2.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="220601670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_3.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_5.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_1.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_6.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_4.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888506499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\footstep_8.wav</ShortName>
+					<CachePath>SFX/Footsteps/footstep_8_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
+					<MediaRefs>
+						<MediaRef Id="71225307"/>
+						<MediaRef Id="220601670"/>
+						<MediaRef Id="340915065"/>
+						<MediaRef Id="586436993"/>
+						<MediaRef Id="625569795"/>
+						<MediaRef Id="789204459"/>
+						<MediaRef Id="888506499"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C05B0527-A08F-A800-AFCC-F4DD18663117}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1159390747" Name="Room_Medium_Tiled" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="1616772529" Name="Master HDR"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1159390747"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9CB52E10-CA05-868F-9B4F-C6ECC168E81C}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="622005106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>first music arp.wav</ShortName>
+					<CachePath>SFX/first music arp_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2279279248" Name="InteractiveMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="622005106"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B0415E78-70AE-06A0-EB04-FFFFF9DB2A3E}</FileHash>
+	<FileHash>{E50FAE24-6FFD-3B83-E4F6-29F30DB5C6C3}</FileHash>
 </SoundBanksInfo>
