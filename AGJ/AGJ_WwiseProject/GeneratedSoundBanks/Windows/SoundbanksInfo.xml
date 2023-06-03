@@ -84,7 +84,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{EBB079F3-3BC6-365D-E6F3-317CAAD3005F}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9CB52E10-CA05-868F-9B4F-C6ECC168E81C}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -102,5 +102,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3D1F539B-A054-33A9-18E6-5D5B47371AAF}</FileHash>
+	<FileHash>{E50FAE24-6FFD-3B83-E4F6-29F30DB5C6C3}</FileHash>
 </SoundBanksInfo>
