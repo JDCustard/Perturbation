@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1793310691	SafeMusic			\Default Work Unit\SafeMusic	
 	2279279248	InteractiveMusic			\Default Work Unit\InteractiveMusic	
 
 State Group	ID	Name			Wwise Object Path	Notes

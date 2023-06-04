@@ -97,7 +97,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{27377E90-0CDF-AC11-617C-F18DC4A7382B}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{DDF206FD-48C9-25A2-D882-B62340F64181}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -139,11 +139,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1793310691" Name="SafeMusic" MaxAttenuation="100" DurationType="OneShot" DurationMin="126" DurationMax="126">
-					<MediaRefs>
-						<MediaRef Id="1021825375"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="766723505" Name="Game_State">
@@ -157,5 +152,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7AB4BB4E-B8E2-77FB-92AA-A9A6D143F778}</FileHash>
+	<FileHash>{092A8F6F-843D-78E1-CAAD-FE39CDDDA4C5}</FileHash>
 </SoundBanksInfo>

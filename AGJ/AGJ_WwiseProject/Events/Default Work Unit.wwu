@@ -29,7 +29,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SafeMusic" ID="{61D0B6C8-353C-45CA-B806-17FB204E2DBE}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
