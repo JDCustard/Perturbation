@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{06750C0C-B681-4740-9BD9-D4D610820349}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{06750C0C-B681-4740-9BD9-D4D610820349}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{06750C0C-B681-4740-9BD9-D4D610820349}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Anxiety_Level" ID="{BB40780B-C5AF-4707-87C6-D0244A30FC35}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -59,7 +59,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C05B0527-A08F-A800-AFCC-F4DD18663117}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EEBEA386-89E6-6B8B-D555-BAD1B51376AA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -83,24 +83,79 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="553566422" Name="RTPC_Anxiety_Level"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3753286132" Name="Calm"/>
+						<State Id="4143496951" Name="Anxiety"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9CB52E10-CA05-868F-9B4F-C6ECC168E81C}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{27377E90-0CDF-AC11-617C-F18DC4A7382B}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
-				<File Id="622005106" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>first music arp.wav</ShortName>
-					<CachePath>SFX/first music arp_D79FB2B7.wem</CachePath>
+				<File Id="354147299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\anxiety agressive 4_7.wav</ShortName>
+					<CachePath>SFX/Music/anxiety agressive 4_7_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1021825375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\anxiety calm 4_7.wav</ShortName>
+					<CachePath>SFX/Music/anxiety calm 4_7_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="2279279248" Name="InteractiveMusic" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="3753286132"/>
+							<MediaRefs>
+								<MediaRef Id="1021825375"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="4143496951"/>
+							<MediaRefs>
+								<MediaRef Id="354147299"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="3753286132"/>
+							<MediaRefs>
+								<MediaRef Id="1021825375"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="4143496951"/>
+							<MediaRefs>
+								<MediaRef Id="354147299"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1793310691" Name="SafeMusic" MaxAttenuation="100" DurationType="OneShot" DurationMin="126" DurationMax="126">
 					<MediaRefs>
-						<MediaRef Id="622005106"/>
+						<MediaRef Id="1021825375"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3753286132" Name="Calm"/>
+						<State Id="4143496951" Name="Anxiety"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E50FAE24-6FFD-3B83-E4F6-29F30DB5C6C3}</FileHash>
+	<FileHash>{24927593-7B3B-0A14-41F0-90211628DB27}</FileHash>
 </SoundBanksInfo>
