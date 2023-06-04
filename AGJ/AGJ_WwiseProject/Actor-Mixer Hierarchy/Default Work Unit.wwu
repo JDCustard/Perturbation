@@ -233,6 +233,199 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Ambience" ID="{AF6F4A82-20AB-41C0-8251-315B3224A263}" ShortID="209741325">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Roomtone" ID="{6F3BFAB4-D506-43F4-902B-E0D96A753C70}" ShortID="848265486">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Tensions" ID="{D62DE487-F501-4160-B5A4-DB410BD9E085}" ShortID="484503996">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>11.5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{580083AF-4424-4990-9939-20D22116BF70}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-8"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544" ID="{15377BCA-F8A8-4A1B-8F9C-C652A5129BD1}" ShortID="856628532">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544" ID="{BF4116A0-3AA0-4CFE-B778-41DD868BADF5}">
+													<Language>SFX</Language>
+													<AudioFile>Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123519256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544" ID="{BF4116A0-3AA0-4CFE-B778-41DD868BADF5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1" ID="{F03F8C59-03A3-481B-9DA6-529922548973}" ShortID="277047216">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1" ID="{167DF87F-4ABF-48DE-BAA1-A980CF25717A}">
+													<Language>SFX</Language>
+													<AudioFile>Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953162010"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1" ID="{167DF87F-4ABF-48DE-BAA1-A980CF25717A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542" ID="{861A19A1-F6AE-40FE-9A35-FFA114FFF5B5}" ShortID="207325379">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542" ID="{67AC1CD0-3530-4A1C-8099-62B9AD51FEEA}">
+													<Language>SFX</Language>
+													<AudioFile>Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="739602359"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542" ID="{67AC1CD0-3530-4A1C-8099-62B9AD51FEEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302" ID="{8F89915F-8E37-4224-9806-8BBBFDF4F34E}" ShortID="354287502">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302" ID="{C4D479E5-44C7-4F32-8592-257E4640BB8F}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2767.777"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.50909827275704"/>
+												<Property Name="LoopEnd" Type="Real64" Value="26.5669228880157"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618859090"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302" ID="{C4D479E5-44C7-4F32-8592-257E4640BB8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+										<CustomState Name="" ID="{E383A029-4AAF-429B-A2B2-F1B593CF0880}" ShortID="1070471316">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="32"/>
+												<Property Name="MakeUpGain" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+										<CustomState Name="" ID="{86E911C3-5118-4D5A-9ABB-ADD7BDEB8D53}" ShortID="434015525"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+										<CustomState Name="" ID="{24622511-FA3A-4646-9EE6-DBB377EDB7DF}" ShortID="14365664"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

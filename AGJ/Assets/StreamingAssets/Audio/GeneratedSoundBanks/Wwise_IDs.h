@@ -13,9 +13,32 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID INTERACTIVEMUSIC = 2279279248U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAME_STATE
+        {
+            static const AkUniqueID GROUP = 766723505U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ANXIETY = 4143496951U;
+                static const AkUniqueID CALM = 3753286132U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace GAME_STATE
+
+    } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID RTPC_ANXIETY_LEVEL = 553566422U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

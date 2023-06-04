@@ -16,14 +16,25 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="ambience" ID="{E6CB8853-EA44-4C05-A700-6BDAA00D58CE}">
+							<ChildrenList>
+								<Action Name="" ID="{1EA6015D-A347-43E6-8A52-D3B398C4058A}" ShortID="102303361">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Roomtone" ID="{6F3BFAB4-D506-43F4-902B-E0D96A753C70}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}">
 					<ChildrenList>
-						<Action Name="" ID="{DF6C40AB-3087-4961-B873-03B38A6EAFD0}" ShortID="107130807">
+						<Action Name="" ID="{ECFC26C0-C497-4384-855E-4D10A5B15DF6}" ShortID="756990539">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dark Music" ID="{8DD840FC-554D-4B05-9F49-F30EDA68119A}" WorkUnitID="{8F42BBD1-C203-499B-AE06-D8956A65C7D6}"/>
+									<ObjectRef Name="MusicSwitch" ID="{0FBAD245-F57F-47F3-953A-7D3EB628D2D5}" WorkUnitID="{8F42BBD1-C203-499B-AE06-D8956A65C7D6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

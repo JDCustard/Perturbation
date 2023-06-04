@@ -1,12 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
+	85412153	ambience			\Default Work Unit\SFX\ambience	
 	2385628198	footsteps			\Default Work Unit\SFX\footsteps	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_State			
+	1160234136	Normal	Game_State			
+	3753286132	Calm	Game_State			
+	4143496951	Anxiety	Game_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	1070471316	Calm	Game_State	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	71225307	footstep_2	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_2		27056
+	123519256	Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Tensions\Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544		4777220
 	220601670	footstep_3	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_3		27056
 	340915065	footstep_5	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_5		27056
 	586436993	footstep_1	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_1		27056
+	618859090	Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_7A551449.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302		7212176
 	625569795	footstep_6	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_6		27056
+	739602359	Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Tensions\Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542		5431956
 	789204459	footstep_4	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_4		27056
 	888506499	footstep_8	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_8		27056
+	953162010	Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Tensions\Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1		3900008
 

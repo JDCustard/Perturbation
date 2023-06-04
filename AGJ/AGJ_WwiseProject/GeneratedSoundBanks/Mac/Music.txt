@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2279279248	InteractiveMusic			\Default Work Unit\InteractiveMusic	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_State			
+	1160234136	Normal	Game_State			
+	3753286132	Calm	Game_State			
+	4143496951	Anxiety	Game_State			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	622005106	first music arp	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\first music arp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Dark Music\first music arp\first music arp		57153696
+	354147299	anxiety agressive 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Music\anxiety agressive 4_7_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Dark Music\anxiety agressive 4_7		32810496
+	1021825375	anxiety calm 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Mac\SFX\Music\anxiety calm 4_7_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Calm Music\anxiety calm 4_7		22226496
 
