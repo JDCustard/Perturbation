@@ -9,13 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{BA3C5D96-65AD-E1D6-5DCF-DBEEE1476A22}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{72A4EC1B-961A-7CE1-CEB6-403DDD6B7AD1}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
 				<File Id="71225307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_2.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="123519256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544.wav</ShortName>
+					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544_10C4C929.wem</CachePath>
 				</File>
 				<File Id="220601670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_3.wav</ShortName>
@@ -29,9 +33,17 @@
 					<ShortName>Footsteps\footstep_1.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="618859090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302.wav</ShortName>
+					<CachePath>SFX/Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_7A551449.wem</CachePath>
+				</File>
 				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_6.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="739602359" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542.wav</ShortName>
+					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542_10C4C929.wem</CachePath>
 				</File>
 				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_4.wav</ShortName>
@@ -41,8 +53,20 @@
 					<ShortName>Footsteps\footstep_8.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_8_10C4C929.wem</CachePath>
 				</File>
+				<File Id="953162010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1.wav</ShortName>
+					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="85412153" Name="ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="123519256"/>
+						<MediaRef Id="618859090"/>
+						<MediaRef Id="739602359"/>
+						<MediaRef Id="953162010"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
 					<MediaRefs>
 						<MediaRef Id="71225307"/>
@@ -97,7 +121,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{DDF206FD-48C9-25A2-D882-B62340F64181}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{88366A73-0039-061C-6DB1-6672BB3B57D1}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -152,5 +176,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45B6345B-2FE2-2BBE-28CF-7C48E77CD6A2}</FileHash>
+	<FileHash>{A59ABA5B-78C3-5471-3DA2-BFEDB9973B27}</FileHash>
 </SoundBanksInfo>

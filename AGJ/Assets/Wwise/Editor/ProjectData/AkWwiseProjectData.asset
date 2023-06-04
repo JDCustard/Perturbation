@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: b7c0204a480e7842b9a66b84c94ff446
     GuidInternal: 
-    m_lastTime: -8585157314423101040
+    m_lastTime: -8585157245239289806
     List:
     - name: Music
       guid: c39eb523dbef214c882cdf8ecf7e3c94
@@ -125,8 +125,28 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 2a66dc7b4209f4468148d73da7e389d8
     GuidInternal: 
-    m_lastTime: -8585157314423126805
+    m_lastTime: -8585157247245423656
     List:
+    - name: ambience
+      guid: 5388cbe644ea054ca7006bdaa00d58ce
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2a66dc7b4209f4468148d73da7e389d8
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 014df21bf7dd524b82099432db86d07f
+      - ElementName: ambience
+        ObjectType: 3
+        guid: 5388cbe644ea054ca7006bdaa00d58ce
+      Path: Events/Default Work Unit/SFX/ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: footsteps
       guid: 2be688c6de4cd24ebe274f4b9c5bdb34
       id: 2385628198
@@ -334,7 +354,7 @@ MonoBehaviour:
     m_lastTime: -8585160801935035587
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000
+  ExpandedWaapiItemIds: 050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
