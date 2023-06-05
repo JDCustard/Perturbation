@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -26343,6 +26343,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1166561307}
   volume: {fileID: 1780335076}
+  panicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 437681eb42abe44b78446341247f4c29,
+      type: 2}
 --- !u!1001 &1173884385
 PrefabInstance:
   m_ObjectHideFlags: 0
