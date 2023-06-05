@@ -7,11 +7,15 @@ State	ID	Name	State Group			Notes
 	3753286132	Calm	Game_State			
 	4143496951	Anxiety	Game_State			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	788252695	Anxiety	Game_State	\Master-Mixer Hierarchy\Default Work Unit\Master HDR		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1616772529	Master HDR			\Default Work Unit\Master HDR	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master HDR\Reverb	
+	4143496951	Anxiety			\Default Work Unit\Master HDR\Anxiety	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1159390747	Room_Medium_Tiled	Wwise RoomVerb			

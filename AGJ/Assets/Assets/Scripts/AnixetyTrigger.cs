@@ -11,12 +11,18 @@ public class AnixetyTrigger : MonoBehaviour
     public GameObject enemy;
     public Volume volume;
     private ChromaticAberration chromaticAberration;
-    
+    public AK.Wwise.Event panicEvent;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+
+            AkSoundEngine.SetState("Game_State", "Anxiety");
+            Debug.Log("Anxiety");
+            panicEvent.Post(gameObject);
+
+
             VolumeProfile volumeProfile = volume.profile;
             if (volumeProfile.TryGet(out chromaticAberration))
             {

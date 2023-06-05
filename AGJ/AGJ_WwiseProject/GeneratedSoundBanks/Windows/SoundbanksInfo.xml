@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{72A4EC1B-961A-7CE1-CEB6-403DDD6B7AD1}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{4FCED69D-96F2-930A-0A76-ADE80E7C31A8}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,6 +25,10 @@
 					<ShortName>Footsteps\footstep_3.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="250362379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</ShortName>
+					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
@@ -35,7 +39,7 @@
 				</File>
 				<File Id="618859090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302.wav</ShortName>
-					<CachePath>SFX/Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_7A551449.wem</CachePath>
+					<CachePath>SFX/Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_A3FA8FD0.wem</CachePath>
 				</File>
 				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_6.wav</ShortName>
@@ -81,9 +85,24 @@
 						<AuxBusRef Id="348963605" Name="Reverb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="897690021" Name="panic_attack" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="250362379"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3753286132" Name="Calm"/>
+						<State Id="4143496951" Name="Anxiety"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EEBEA386-89E6-6B8B-D555-BAD1B51376AA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D2A598EC-0B94-C584-0EAC-516B535262D6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -106,6 +125,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
+				<AuxBus Id="4143496951" Name="Anxiety"/>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="553566422" Name="RTPC_Anxiety_Level"/>
@@ -121,7 +141,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{88366A73-0039-061C-6DB1-6672BB3B57D1}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{59F1558A-2250-8979-4F88-9B8C21CDB60D}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -176,5 +196,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A59ABA5B-78C3-5471-3DA2-BFEDB9973B27}</FileHash>
+	<FileHash>{B4EF89E1-7763-DF45-8C30-EBE2A1526862}</FileHash>
 </SoundBanksInfo>

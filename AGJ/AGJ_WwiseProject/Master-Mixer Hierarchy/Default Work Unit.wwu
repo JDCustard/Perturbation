@@ -17,7 +17,55 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<AuxBus Name="Anxiety" ID="{6B6CB6AC-0236-4F77-939E-D74622B73D84}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+										<CustomState Name="" ID="{2E3B66FA-161D-40A5-AD97-F254132DD3C4}" ShortID="475931894"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+										<CustomState Name="" ID="{16AA49FC-5392-41B3-9D54-C20E60BDEABB}" ShortID="503342052"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+										<CustomState Name="" ID="{D791FC24-3CF2-42DD-BEA9-99370B101E0C}" ShortID="314528408"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</AuxBus>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+								<CustomState Name="" ID="{36ACE061-BA0E-4FFB-9C4A-3323F2393A6C}" ShortID="1030973569"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+								<CustomState Name="" ID="{3D1E938B-CAA1-4C70-B9E4-1FEC269F0530}" ShortID="788252695">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="46"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+								<CustomState Name="" ID="{4E22421F-9F1A-4B0B-9FB4-5651CCFF2490}" ShortID="807784515"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
