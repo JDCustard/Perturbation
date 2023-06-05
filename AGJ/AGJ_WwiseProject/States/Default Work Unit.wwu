@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{657520BB-FFAB-493D-BC54-E22582931708}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{114ED257-3D7D-43D6-9A9E-3D23232CD639}"/>
 						<State Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>

@@ -56,7 +56,7 @@
 								<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
 								<CustomState Name="" ID="{3D1E938B-CAA1-4C70-B9E4-1FEC269F0530}" ShortID="788252695">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="46"/>
+										<Property Name="Lowpass" Type="int16" Value="15"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

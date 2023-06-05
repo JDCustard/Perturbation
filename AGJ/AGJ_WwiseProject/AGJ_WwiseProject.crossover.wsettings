@@ -40,7 +40,7 @@
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="Mixing Desk\CurrentStates\{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}" Type="string" Value="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+				<Property Name="Mixing Desk\CurrentStates\{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}" Type="string" Value="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>

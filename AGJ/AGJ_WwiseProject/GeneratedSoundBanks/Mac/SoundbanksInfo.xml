@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{4FCED69D-96F2-930A-0A76-ADE80E7C31A8}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2C3C3F0B-FD88-79D3-6AD2-E2307D62E3C2}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -27,7 +27,7 @@
 				</File>
 				<File Id="250362379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</ShortName>
-					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_77C946A4.wem</CachePath>
 				</File>
 				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
@@ -102,7 +102,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6C99F04-7C3B-1FA0-44FD-B60312384E9A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{24568CD2-1C21-0663-613E-8110DD9647DB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -141,7 +141,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{59F1558A-2250-8979-4F88-9B8C21CDB60D}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{29594A93-7B5E-D4AD-DE3B-F941CA268BCD}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -196,5 +196,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B4292102-F7AF-6DB0-7E45-1ED8AE9ADDD4}</FileHash>
+	<FileHash>{7807AB9A-42BC-1400-CE9B-F8C3B5A2CF6F}</FileHash>
 </SoundBanksInfo>

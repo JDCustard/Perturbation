@@ -292,6 +292,11 @@
 										<Sound Name="Human, Breath, Female, Calm, Building Up To Heavy SND3141" ID="{8B0870B0-58DF-4F39-B92A-79D7A2B591B0}" ShortID="697787005">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -303,6 +308,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Human, Breath, Female, Calm, Building Up To Heavy SND3141" ID="{7750EC84-BB27-4CEF-96B9-1B29D9215DB9}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.1550466944801"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</AudioFile>
 													<MediaIDList>
@@ -408,6 +418,13 @@
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="AnxietySound" ID="{B3968736-056E-4B4C-9E7F-01B4DB108C40}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Human, Breath, Female, Sighs SND77893" ID="{5C45C17B-B202-427E-991A-B6B253B8B2A7}"/>
