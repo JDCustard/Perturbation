@@ -449,6 +449,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambience" ID="{AF6F4A82-20AB-41C0-8251-315B3224A263}" ShortID="209741325">
+					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
@@ -639,6 +642,80 @@
 								</CustomStateList>
 							</StateInfo>
 						</BlendContainer>
+						<ActorMixer Name="Lighthouse" ID="{9A6050E2-23F0-45BC-AADB-DBB1E44BD29B}" ShortID="871115677">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="lighthouse" ID="{6FBEFE75-4745-4AD4-8CFE-C3B3651EB0E9}" ShortID="899322423">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Lighthouse" ID="{A9A2B492-C2DB-4E6C-82E8-9F2A0D5BECCA}" WorkUnitID="{5E4437E5-E730-4B72-914C-51661AF840FE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lighthouse" ID="{7E387ADF-B5F2-4F6A-9135-3FD2D5765849}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1094.737"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.333975594091201"/>
+												<Property Name="LoopEnd" Type="Real64" Value="12.3403982016699"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>lighthouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765790335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+												<CustomState Name="" ID="{86584172-A074-4967-A0EA-E0E90E51F0E2}" ShortID="529557486">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="65"/>
+														<Property Name="Volume" Type="Real64" Value="-4"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+												<CustomState Name="" ID="{F1B754D7-E6BB-4291-8EE5-23AF61BFFA74}" ShortID="183106373"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+												<CustomState Name="" ID="{DD8B5429-782F-436C-88FE-3CD4B2C7806D}" ShortID="167851096"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="lighthouse" ID="{7E387ADF-B5F2-4F6A-9135-3FD2D5765849}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

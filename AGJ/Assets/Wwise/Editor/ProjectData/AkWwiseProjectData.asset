@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: f974ef620feb554d81dc7ff78554221e
     GuidInternal: 
-    m_lastTime: -8585156411357973476
+    m_lastTime: -8585155520982724962
     List:
     - name: Anxiety
       guid: acb66c6b3602774f939ed74622b73d84
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 2a66dc7b4209f4468148d73da7e389d8
     GuidInternal: 
-    m_lastTime: -8585156447781028769
+    m_lastTime: -8585155510685908081
     List:
     - name: ambience
       guid: 5388cbe644ea054ca7006bdaa00d58ce
@@ -198,6 +198,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: aa7bbebc37785c43a76bd4334ea10b68
       Path: Events/Default Work Unit/InteractiveMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: lighthouse
+      guid: b90f0f7d0ccdb942b5ae949c98839b65
+      id: 2822410613
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2a66dc7b4209f4468148d73da7e389d8
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 014df21bf7dd524b82099432db86d07f
+      - ElementName: lighthouse
+        ObjectType: 3
+        guid: b90f0f7d0ccdb942b5ae949c98839b65
+      Path: Events/Default Work Unit/SFX/lighthouse
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -278,7 +298,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: bb207565abff3d49bc54e22582931708
     GuidInternal: 
-    m_lastTime: -8585156413853108845
+    m_lastTime: -8585155520982205523
     List:
     - name: Game_State
       guid: b8a7483eb6fc7745bbd86faa1dbb7721

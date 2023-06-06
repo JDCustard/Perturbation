@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2C3C3F0B-FD88-79D3-6AD2-E2307D62E3C2}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2D8C1969-0C86-9138-D3FB-CE6407E278AB}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -27,7 +27,7 @@
 				</File>
 				<File Id="250362379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</ShortName>
-					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_77C946A4.wem</CachePath>
+					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_3BC45E92.wem</CachePath>
 				</File>
 				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
@@ -48,6 +48,10 @@
 				<File Id="739602359" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542.wav</ShortName>
 					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542_10C4C929.wem</CachePath>
+				</File>
+				<File Id="765790335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lighthouse.wav</ShortName>
+					<CachePath>SFX/lighthouse_926FD637.wem</CachePath>
 				</File>
 				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_4.wav</ShortName>
@@ -84,6 +88,11 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="348963605" Name="Reverb"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="2822410613" Name="lighthouse" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="765790335"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="897690021" Name="panic_attack" DurationType="Infinite">
 					<MediaRefs>
@@ -141,7 +150,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{29594A93-7B5E-D4AD-DE3B-F941CA268BCD}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{F38BB29F-A9BB-7DD4-5B68-7AA7281F43C5}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -196,5 +205,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8504E42A-2207-58FF-79C0-F3F5C8423E41}</FileHash>
+	<FileHash>{D3D44FE3-3CF8-D921-6060-16E3C0EA3962}</FileHash>
 </SoundBanksInfo>
