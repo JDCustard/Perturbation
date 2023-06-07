@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID INTERACTIVEMUSIC = 2279279248U;
+        static const AkUniqueID LIGHTHOUSE = 2822410613U;
+        static const AkUniqueID PANIC_ATTACK = 897690021U;
     } // namespace EVENTS
 
     namespace STATES
@@ -54,6 +56,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID ANXIETY = 4143496951U;
         static const AkUniqueID REVERB = 348963605U;
     } // namespace AUX_BUSSES
 
