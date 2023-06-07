@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.HighDefinition;
 
 public class AnixetyTrigger : MonoBehaviour
 {
@@ -11,6 +11,7 @@ public class AnixetyTrigger : MonoBehaviour
     public GameObject enemy;
     public Volume volume;
     private ChromaticAberration chromaticAberration;
+    private LensDistortion lensDistortion;
     public AK.Wwise.Event panicEvent;
 
     private void OnTriggerEnter(Collider other)
@@ -23,12 +24,19 @@ public class AnixetyTrigger : MonoBehaviour
             panicEvent.Post(gameObject);
 
 
-            VolumeProfile volumeProfile = volume.profile;
-            if (volumeProfile.TryGet(out chromaticAberration))
+
+            if(volume.profile.TryGet(out chromaticAberration))
             {
-                // Modify the properties of ChromaticAberration as desired
+                Debug.Log("CATriggered");
                 chromaticAberration.active = true; // Enable the effect
             }
+
+            if (volume.profile.TryGet(out lensDistortion))
+            {
+                Debug.Log("Triggered");
+                lensDistortion.active = true; // Enable the effect
+            }
+
             enemy.SetActive(false);
         }
             
@@ -37,12 +45,13 @@ public class AnixetyTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+
     }
 }
