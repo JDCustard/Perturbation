@@ -20,7 +20,7 @@ public class CameraRaycasting : MonoBehaviour
         {
             if (currentTarget != null)
             {
-                currentTarget.OnInteract();
+                currentTarget.OnItemInteract();
             }
         }
     }
