@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{72A4EC1B-961A-7CE1-CEB6-403DDD6B7AD1}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2D8C1969-0C86-9138-D3FB-CE6407E278AB}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,6 +25,10 @@
 					<ShortName>Footsteps\footstep_3.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="250362379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</ShortName>
+					<CachePath>SFX/Human, Breath, Female, Calm, Building Up To Heavy SND3141_3BC45E92.wem</CachePath>
+				</File>
 				<File Id="340915065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
@@ -35,7 +39,7 @@
 				</File>
 				<File Id="618859090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302.wav</ShortName>
-					<CachePath>SFX/Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_7A551449.wem</CachePath>
+					<CachePath>SFX/Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_A3FA8FD0.wem</CachePath>
 				</File>
 				<File Id="625569795" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_6.wav</ShortName>
@@ -44,6 +48,10 @@
 				<File Id="739602359" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542.wav</ShortName>
 					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 03 SND45542_10C4C929.wem</CachePath>
+				</File>
+				<File Id="765790335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lighthouse.wav</ShortName>
+					<CachePath>SFX/lighthouse_926FD637.wem</CachePath>
 				</File>
 				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_4.wav</ShortName>
@@ -81,9 +89,29 @@
 						<AuxBusRef Id="348963605" Name="Reverb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="2822410613" Name="lighthouse" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="765790335"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="897690021" Name="panic_attack" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="250362379"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3753286132" Name="Calm"/>
+						<State Id="4143496951" Name="Anxiety"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EEBEA386-89E6-6B8B-D555-BAD1B51376AA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5A140D7C-DBFC-BCC7-2434-C253ACFF6911}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -106,6 +134,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
+				<AuxBus Id="4143496951" Name="Anxiety"/>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="553566422" Name="RTPC_Anxiety_Level"/>
@@ -121,7 +150,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{88366A73-0039-061C-6DB1-6672BB3B57D1}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{F38BB29F-A9BB-7DD4-5B68-7AA7281F43C5}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -176,5 +205,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A59ABA5B-78C3-5471-3DA2-BFEDB9973B27}</FileHash>
+	<FileHash>{D3D44FE3-3CF8-D921-6060-16E3C0EA3962}</FileHash>
 </SoundBanksInfo>

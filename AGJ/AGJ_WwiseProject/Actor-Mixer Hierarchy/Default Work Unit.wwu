@@ -230,10 +230,228 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+										<CustomState Name="" ID="{F9586745-BBAF-4743-A9AF-F9C7B4E48318}" ShortID="680763814">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-4"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+										<CustomState Name="" ID="{25FA8B8D-8AD3-4498-B461-F9E21690DCC8}" ShortID="519609206">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="7"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+										<CustomState Name="" ID="{215B77F8-6A0D-4E24-80EC-E6849A759368}" ShortID="984465596"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
+						<SwitchContainer Name="Anxiety" ID="{28ED8ED4-B6FD-4E86-93FA-CC1BB173AC72}" ShortID="1033821381">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}" WorkUnitID="{657520BB-FFAB-493D-BC54-E22582931708}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}" WorkUnitID="{657520BB-FFAB-493D-BC54-E22582931708}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Anxiety" ID="{6B6CB6AC-0236-4F77-939E-D74622B73D84}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="AnxietySound" ID="{B3968736-056E-4B4C-9E7F-01B4DB108C40}" ShortID="155544943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Human, Breath, Female, Calm, Building Up To Heavy SND3141" ID="{8B0870B0-58DF-4F39-B92A-79D7A2B591B0}" ShortID="697787005">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Human, Breath, Female, Calm, Building Up To Heavy SND3141" ID="{7750EC84-BB27-4CEF-96B9-1B29D9215DB9}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.1550466944801"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Human, Breath, Female, Calm, Building Up To Heavy SND3141.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="250362379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Human, Breath, Female, Calm, Building Up To Heavy SND3141" ID="{7750EC84-BB27-4CEF-96B9-1B29D9215DB9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+												<CustomState Name="" ID="{253964E6-5ABD-4EF5-BADB-217E0F7C4566}" ShortID="748227222">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+												<CustomState Name="" ID="{E827A533-7B27-48FC-B3FA-A3521FB55653}" ShortID="1073365975"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+												<CustomState Name="" ID="{806D6C72-31E1-4877-AE20-96C09A81FC6E}" ShortID="116571631">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</BlendContainer>
+								<Sound Name="Human, Breath, Female, Sighs SND77893" ID="{5C45C17B-B202-427E-991A-B6B253B8B2A7}" ShortID="70831267">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Human, Breath, Female, Sighs SND77893" ID="{16442556-12E4-48D9-B4F8-189EC797292B}">
+											<Language>SFX</Language>
+											<AudioFile>Human, Breath, Female, Sighs SND77893.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="712810087"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+												<CustomState Name="" ID="{68FF424A-087B-452E-A99E-14B05931B6CF}" ShortID="673288238"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+												<CustomState Name="" ID="{29410464-800A-43B5-8F52-6BA390B943ED}" ShortID="197503895">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+												<CustomState Name="" ID="{29D147FC-EC6E-42D2-93F6-61125D53B12F}" ShortID="160554189">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Human, Breath, Female, Sighs SND77893" ID="{16442556-12E4-48D9-B4F8-189EC797292B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="AnxietySound" ID="{B3968736-056E-4B4C-9E7F-01B4DB108C40}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Human, Breath, Female, Sighs SND77893" ID="{5C45C17B-B202-427E-991A-B6B253B8B2A7}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+										<ItemList>
+											<ItemRef Name="Human, Breath, Female, Sighs SND77893" ID="{5C45C17B-B202-427E-991A-B6B253B8B2A7}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+										<ItemList>
+											<ItemRef Name="AnxietySound" ID="{B3968736-056E-4B4C-9E7F-01B4DB108C40}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambience" ID="{AF6F4A82-20AB-41C0-8251-315B3224A263}" ShortID="209741325">
+					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
@@ -424,6 +642,80 @@
 								</CustomStateList>
 							</StateInfo>
 						</BlendContainer>
+						<ActorMixer Name="Lighthouse" ID="{9A6050E2-23F0-45BC-AADB-DBB1E44BD29B}" ShortID="871115677">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="lighthouse" ID="{6FBEFE75-4745-4AD4-8CFE-C3B3651EB0E9}" ShortID="899322423">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Lighthouse" ID="{A9A2B492-C2DB-4E6C-82E8-9F2A0D5BECCA}" WorkUnitID="{5E4437E5-E730-4B72-914C-51661AF840FE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lighthouse" ID="{7E387ADF-B5F2-4F6A-9135-3FD2D5765849}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1094.737"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.333975594091201"/>
+												<Property Name="LoopEnd" Type="Real64" Value="12.3403982016699"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>lighthouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765790335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Game_State" ID="{3E48A7B8-FCB6-4577-BBD8-6FAA1DBB7721}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Calm" ID="{7CE16819-39E0-45E1-867B-20F04444BCA3}"/>
+												<CustomState Name="" ID="{86584172-A074-4967-A0EA-E0E90E51F0E2}" ShortID="529557486">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="65"/>
+														<Property Name="Volume" Type="Real64" Value="-4"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
+												<CustomState Name="" ID="{F1B754D7-E6BB-4291-8EE5-23AF61BFFA74}" ShortID="183106373"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}"/>
+												<CustomState Name="" ID="{DD8B5429-782F-436C-88FE-3CD4B2C7806D}" ShortID="167851096"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="lighthouse" ID="{7E387ADF-B5F2-4F6A-9135-3FD2D5765849}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
