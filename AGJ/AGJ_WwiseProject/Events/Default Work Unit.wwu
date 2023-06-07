@@ -27,6 +27,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="panic_attack" ID="{40A92CBC-CC8D-4673-A97B-B59D308ABBDB}">
+							<ChildrenList>
+								<Action Name="" ID="{BD9BC8BD-D445-41FD-9B1B-B094225CDCE2}" ShortID="523728497">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AnxietySound" ID="{B3968736-056E-4B4C-9E7F-01B4DB108C40}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="lighthouse" ID="{7D0F0FB9-CD0C-42B9-B5AE-949C98839B65}">
+							<ChildrenList>
+								<Action Name="" ID="{B0B9B15D-67B8-49D5-8989-32B9F7FEBDE8}" ShortID="779848748">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lighthouse" ID="{6FBEFE75-4745-4AD4-8CFE-C3B3651EB0E9}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}">
