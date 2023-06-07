@@ -24,7 +24,6 @@ public class CameraRaycasting : MonoBehaviour
             }
         }
     }
-
     private void RaycastForInteractable()
     {
         RaycastHit hit;
