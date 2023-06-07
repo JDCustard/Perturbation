@@ -5,12 +5,15 @@ using UnityEngine;
 public class EnableEnemy : MonoBehaviour
 {
     public GameObject enemy;
+    public GameObject trigger;
 
     void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
+            trigger.SetActive(false);
             enemy.SetActive(true);
+
         }
     }
 
