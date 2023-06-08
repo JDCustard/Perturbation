@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2D8C1969-0C86-9138-D3FB-CE6407E278AB}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A5E75E27-C0D6-612C-5FD6-5C17D5ABAFF3}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -33,6 +33,10 @@
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="575742114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>closing walls.wav</ShortName>
+					<CachePath>SFX/closing walls_2DC69DED.wem</CachePath>
+				</File>
 				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_1.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
@@ -51,7 +55,7 @@
 				</File>
 				<File Id="765790335" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lighthouse.wav</ShortName>
-					<CachePath>SFX/lighthouse_926FD637.wem</CachePath>
+					<CachePath>SFX/lighthouse_E796E365.wem</CachePath>
 				</File>
 				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_4.wav</ShortName>
@@ -66,6 +70,11 @@
 					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="85412153" Name="ambience" DurationType="Infinite">
 					<MediaRefs>
@@ -74,6 +83,26 @@
 						<MediaRef Id="739602359"/>
 						<MediaRef Id="953162010"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="29226244" Name="closing_walls" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="575742114"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3345320291" Name="closing_walls_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="575742114"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
 					<MediaRefs>
@@ -111,7 +140,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5A140D7C-DBFC-BCC7-2434-C253ACFF6911}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{57E0A53E-C8A6-6DD9-28DF-4DCB557D12C9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -205,5 +234,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D3D44FE3-3CF8-D921-6060-16E3C0EA3962}</FileHash>
+	<FileHash>{D95CF3A1-E4AA-D446-3D6B-FC748292DC9C}</FileHash>
 </SoundBanksInfo>
