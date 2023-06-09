@@ -17,6 +17,9 @@ public class ClosingWalls : MonoBehaviour
     [SerializeField]
     private GameObject _PlayerCapsule;
 
+    [SerializeField]
+    private GameObject EndingTrigger;
+
     private void TeleportPlayer()
     {
         cc.enabled = false;
@@ -33,6 +36,7 @@ public class ClosingWalls : MonoBehaviour
         TeleportPlayer();
         yield return new WaitForSeconds(3);
         _playerlight.SetActive(true);
+        EndingTrigger.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
