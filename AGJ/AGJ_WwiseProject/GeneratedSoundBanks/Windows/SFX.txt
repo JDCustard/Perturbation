@@ -23,16 +23,13 @@ Custom State	ID	Name	State Group	Owner		Notes
 	748227222	Calm	Game_State	\Actor-Mixer Hierarchy\Default Work Unit\Player\Anxiety\AnxietySound		
 	1070471316	Calm	Game_State	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone		
 
-Effect plug-ins	ID	Name	Type				Notes
-	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	71225307	footstep_2	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_2		27056
 	123519256	Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Tensions\Designed, Eerie, Swell, Thriller, Tension Builders 01 SND45544		4777220
 	220601670	footstep_3	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_3		27056
 	250362379	Human, Breath, Female, Calm, Building Up To Heavy SND3141	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Human, Breath, Female, Calm, Building Up To Heavy SND3141_3BC45E92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Anxiety\AnxietySound\Human, Breath, Female, Calm, Building Up To Heavy SND3141		2030980
 	340915065	footstep_5	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_5		27056
-	575742114	closing walls	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\closing walls_2DC69DED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ClosingWalls\closing walls		8852520
+	575742114	closing walls	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\closing walls_992ADD20.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ClosingWalls\closing walls		6698612
 	586436993	footstep_1	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_1		27056
 	618859090	Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302_A3FA8FD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone\Designed, Eerie, Horror, Processed Acoustic Guitar, Dark Tone, Sudden Impact, Jumpscare SND37302		7212176
 	625569795	footstep_6	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Footsteps\footstep_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\footstep_6		27056

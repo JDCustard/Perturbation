@@ -37,7 +37,64 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="anxiety agressive 4_7" ID="{819022CC-6394-4367-97B7-AC53560DDC39}" ShortID="213527808">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}">
+												<Conversion Name="Vorbis Quality Medium (Custom)" ID="{D2D484ED-8BFE-4FDA-82BA-6FFCD9AE6147}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{7E8C5A0A-353B-4B0B-AD05-02E1B9C40EA3}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{108BC170-B96B-48E4-B166-35125DFE7DC9}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
 										</Reference>
@@ -199,7 +256,64 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="anxiety calm 4_7" ID="{C5B8428C-F3DD-49EC-8B41-AF1B94A774C6}" ShortID="582528453">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}">
+												<Conversion Name="Vorbis Quality Medium (Custom)" ID="{3F7B05E8-F1D5-4DA8-93EF-1311035DCB13}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{01D80B2C-CA3F-4AC0-AABF-E05C402C95AC}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{E9397DF1-507D-4464-914F-AC35EEB886C3}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
 										</Reference>

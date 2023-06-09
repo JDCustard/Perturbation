@@ -249,7 +249,7 @@
 										<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
 										<CustomState Name="" ID="{25FA8B8D-8AD3-4498-B461-F9E21690DCC8}" ShortID="519609206">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="7"/>
+												<Property Name="Volume" Type="Real64" Value="10"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -261,6 +261,13 @@
 							</StateInfo>
 						</RandomSequenceContainer>
 						<SwitchContainer Name="Anxiety" ID="{28ED8ED4-B6FD-4E86-93FA-CC1BB173AC72}" ShortID="1033821381">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
@@ -733,37 +740,25 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="closing walls" ID="{76093E77-D464-4077-9372-FA98E803385B}" ShortID="550988641">
+								<Sound Name="closing walls" ID="{40E051B2-4B74-41D7-A937-D5FF2DE01A27}" ShortID="687863929">
 									<PropertyList>
-										<Property Name="3DPosition" Type="int16" Value="2"/>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="MakeUpGain" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Lighthouse" ID="{A9A2B492-C2DB-4E6C-82E8-9F2A0D5BECCA}" WorkUnitID="{5E4437E5-E730-4B72-914C-51661AF840FE}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-											<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="closing walls" ID="{985DDA19-E2DF-47D7-8B7A-B5F21EDD20C4}">
+										<AudioFileSource Name="closing walls" ID="{E61DB62C-377B-41F1-AF2A-5B6BCD5905E8}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.6"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2169.712"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.12952667136827"/>
+												<Property Name="TrimEnd" Type="Real64" Value="41.1029797641315"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>closing walls.wav</AudioFile>
@@ -772,11 +767,8 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<PositioningInfo>
-										<Position Name="" ID="{EA00A36A-3F18-4F0D-8291-02D4AF25766B}"/>
-									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="closing walls" ID="{985DDA19-E2DF-47D7-8B7A-B5F21EDD20C4}" Platform="Linked"/>
+										<ActiveSource Name="closing walls" ID="{E61DB62C-377B-41F1-AF2A-5B6BCD5905E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
