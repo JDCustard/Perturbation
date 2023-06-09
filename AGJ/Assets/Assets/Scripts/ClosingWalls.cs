@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK;
+using AK.Wwise;
+
+
 
 public class ClosingWalls : MonoBehaviour
 {
@@ -17,8 +21,8 @@ public class ClosingWalls : MonoBehaviour
     [SerializeField]
     private GameObject _PlayerCapsule;
 
-    [SerializeField]
-    private GameObject EndingTrigger;
+    public AK.Wwise.Event ClosingWallsEvent;
+    public AK.Wwise.Event ClosingWallsStopEvent;
 
     private void TeleportPlayer()
     {
@@ -36,13 +40,21 @@ public class ClosingWalls : MonoBehaviour
         TeleportPlayer();
         yield return new WaitForSeconds(3);
         _playerlight.SetActive(true);
-        EndingTrigger.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         _Anim.SetBool("Play", true);
+        ClosingWallsEvent.Post(gameObject);
         StartCoroutine(waiter());
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+        ClosingWallsStopEvent.Post(gameObject);
+        // AKSoundEngine.ExecuteActionOnEvent(ClosingWallsEvent.Id, AkActionOnEventType.AkActionOnEventType_Stop, gameObject, fadeOutDuration * 1000, AkCurveInterpolation.AkCurveInterpolation_Sine);
+
     }
 
     // Start is called before the first frame update
