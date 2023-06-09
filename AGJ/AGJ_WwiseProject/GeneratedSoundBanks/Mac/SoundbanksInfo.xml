@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A5E75E27-C0D6-612C-5FD6-5C17D5ABAFF3}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{E2C0929B-E061-3FD9-3B38-D411ACFBD353}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -35,7 +35,7 @@
 				</File>
 				<File Id="575742114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>closing walls.wav</ShortName>
-					<CachePath>SFX/closing walls_2DC69DED.wem</CachePath>
+					<CachePath>SFX/closing walls_0504558C.wem</CachePath>
 				</File>
 				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_1.wav</ShortName>
@@ -70,11 +70,6 @@
 					<CachePath>SFX/Designed, Eerie, Swell, Thriller, Tension Builders 02 SND45543 1_10C4C929.wem</CachePath>
 				</File>
 			</Media>
-			<Plugins>
-				<ShareSets>
-					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
-				</ShareSets>
-			</Plugins>
 			<Events>
 				<Event Id="85412153" Name="ambience" DurationType="Infinite">
 					<MediaRefs>
@@ -84,25 +79,18 @@
 						<MediaRef Id="953162010"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="29226244" Name="closing_walls" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="29226244" Name="closing_walls" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="575742114"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="1459522457"/>
-						</ShareSets>
-					</PluginRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="766723505" Id="1160234136" Name="Normal"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="3345320291" Name="closing_walls_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="575742114"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="1459522457"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
 					<MediaRefs>
@@ -140,7 +128,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3A810261-3CD2-17FC-7DFB-D20C9EE25818}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{24568CD2-1C21-0663-613E-8110DD9647DB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -179,17 +167,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{F38BB29F-A9BB-7DD4-5B68-7AA7281F43C5}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{5AC3C0B0-0AC1-303C-0C42-A9B39756293A}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
 				<File Id="354147299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\anxiety agressive 4_7.wav</ShortName>
-					<CachePath>SFX/Music/anxiety agressive 4_7_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Music/anxiety agressive 4_7_696A9007.wem</CachePath>
 				</File>
 				<File Id="1021825375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\anxiety calm 4_7.wav</ShortName>
-					<CachePath>SFX/Music/anxiety calm 4_7_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Music/anxiety calm 4_7_696A9007.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -234,5 +222,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A3D48B60-BEF4-1C8B-5905-78D784D2195E}</FileHash>
+	<FileHash>{88DE771D-F182-0AD8-E3C1-05F77878A9F1}</FileHash>
 </SoundBanksInfo>
