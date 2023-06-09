@@ -14,8 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
-        static const AkUniqueID CLOSING_WALLS = 29226244U;
-        static const AkUniqueID CLOSING_WALLS_STOP = 3345320291U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID INTERACTIVEMUSIC = 2279279248U;
         static const AkUniqueID LIGHTHOUSE = 2822410613U;

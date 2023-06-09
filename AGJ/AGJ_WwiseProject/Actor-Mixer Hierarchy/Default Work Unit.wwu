@@ -249,7 +249,7 @@
 										<StateRef Name="Anxiety" ID="{0096A434-CA56-4716-94DF-E7E095D930FE}"/>
 										<CustomState Name="" ID="{25FA8B8D-8AD3-4498-B461-F9E21690DCC8}" ShortID="519609206">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="10"/>
+												<Property Name="Volume" Type="Real64" Value="7"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -261,13 +261,6 @@
 							</StateInfo>
 						</RandomSequenceContainer>
 						<SwitchContainer Name="Anxiety" ID="{28ED8ED4-B6FD-4E86-93FA-CC1BB173AC72}" ShortID="1033821381">
-							<PropertyList>
-								<Property Name="MakeUpGain" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
@@ -719,56 +712,6 @@
 									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="lighthouse" ID="{7E387ADF-B5F2-4F6A-9135-3FD2D5765849}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
-						<ActorMixer Name="ClosingWalls" ID="{4D8E3C73-016D-4007-AEA5-B84EE93615B3}" ShortID="381168442">
-							<PropertyList>
-								<Property Name="MakeUpGain" Type="Real64">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="closing walls" ID="{40E051B2-4B74-41D7-A937-D5FF2DE01A27}" ShortID="687863929">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E62BAB42-01BF-4877-BB20-0F019D51E004}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master HDR" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62EF74F9-EB0F-4D55-81DC-7FF78554221E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="closing walls" ID="{E61DB62C-377B-41F1-AF2A-5B6BCD5905E8}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="2169.712"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="3.12952667136827"/>
-												<Property Name="TrimEnd" Type="Real64" Value="41.1029797641315"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>closing walls.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="575742114"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="closing walls" ID="{E61DB62C-377B-41F1-AF2A-5B6BCD5905E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
