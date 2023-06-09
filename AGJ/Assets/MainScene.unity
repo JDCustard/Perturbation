@@ -48976,6 +48976,16 @@ MonoBehaviour:
   _roomlight: {fileID: 1692719493}
   _PlayerCapsule: {fileID: 1576003214}
   EndingTrigger: {fileID: 112166717}
+  ClosingWallsEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33334ddd18fcf4b85ba55d42fc591ce0,
+      type: 2}
+  ClosingWallsStopEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7c37abdc6960c4e47a19c79f730f5e7b,
+      type: 2}
 --- !u!114 &661744705
 MonoBehaviour:
   m_ObjectHideFlags: 0
