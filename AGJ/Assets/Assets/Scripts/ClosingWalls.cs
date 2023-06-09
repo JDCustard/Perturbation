@@ -20,6 +20,10 @@ public class ClosingWalls : MonoBehaviour
     [SerializeField]
     private GameObject EndingTrigger;
 
+    public AK.Wwise.Event ClosingWallsEvent;
+    public AK.Wwise.Event ClosingWallsStopEvent;
+
+
     private void TeleportPlayer()
     {
         cc.enabled = false;
@@ -42,7 +46,16 @@ public class ClosingWalls : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         _Anim.SetBool("Play", true);
+        ClosingWallsEvent.Post(gameObject);
         StartCoroutine(waiter());
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+        ClosingWallsStopEvent.Post(gameObject);
+        // AKSoundEngine.ExecuteActionOnEvent(ClosingWallsEvent.Id, AkActionOnEventType.AkActionOnEventType_Stop, gameObject, fadeOutDuration * 1000, AkCurveInterpolation.AkCurveInterpolation_Sine);
+
     }
 
     // Start is called before the first frame update
