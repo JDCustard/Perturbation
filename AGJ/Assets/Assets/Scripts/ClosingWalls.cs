@@ -21,8 +21,13 @@ public class ClosingWalls : MonoBehaviour
     [SerializeField]
     private GameObject _PlayerCapsule;
 
+<<<<<<< HEAD
     public AK.Wwise.Event ClosingWallsEvent;
     public AK.Wwise.Event ClosingWallsStopEvent;
+=======
+    [SerializeField]
+    private GameObject EndingTrigger;
+>>>>>>> master
 
     private void TeleportPlayer()
     {
@@ -40,6 +45,7 @@ public class ClosingWalls : MonoBehaviour
         TeleportPlayer();
         yield return new WaitForSeconds(3);
         _playerlight.SetActive(true);
+        EndingTrigger.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
