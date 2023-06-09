@@ -38,11 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: f974ef620feb554d81dc7ff78554221e
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585153879688580665
-=======
-    m_lastTime: -8585152899873871900
->>>>>>> master
     List:
     - name: Anxiety
       guid: acb66c6b3602774f939ed74622b73d84
@@ -104,11 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: b7c0204a480e7842b9a66b84c94ff446
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585156466417024975
-=======
-    m_lastTime: -8585152899857045144
->>>>>>> master
     List:
     - name: Music
       guid: c39eb523dbef214c882cdf8ecf7e3c94
@@ -150,11 +142,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 2a66dc7b4209f4468148d73da7e389d8
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585152800024826897
-=======
-    m_lastTime: -8585152877789955452
->>>>>>> master
     List:
     - name: ambience
       guid: 5388cbe644ea054ca7006bdaa00d58ce
@@ -322,11 +310,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 0c0c750681b640479bd9d4d610820349
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585157370761035604
-=======
-    m_lastTime: -8585152899882670673
->>>>>>> master
     List:
     - name: RTPC_Anxiety_Level
       guid: 0b7840bbafc5074787c6d0244a30fc35
@@ -354,11 +338,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: bb207565abff3d49bc54e22582931708
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585153879687957855
-=======
-    m_lastTime: -8585152899857035151
->>>>>>> master
     List:
     - name: Game_State
       guid: b8a7483eb6fc7745bbd86faa1dbb7721
