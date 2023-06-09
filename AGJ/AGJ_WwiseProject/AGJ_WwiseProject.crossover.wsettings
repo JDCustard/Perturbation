@@ -6,10 +6,8 @@
 				<Property Name="Event Action List\{40A92CBC-CC8D-4673-A97B-B59D308ABBDB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{61D0B6C8-353C-45CA-B806-17FB204E2DBE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7D0F0FB9-CD0C-42B9-B5AE-949C98839B65}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{86FE718A-E6A0-4304-96A6-D9CF6922C696}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BCBE7BAA-7837-435C-A76B-D4334EA10B68}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C688E62B-4CDE-4ED2-BE27-4F4B9C5BDB34}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{DC585D4E-35F6-4BE3-AC5A-ACC4620F458F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E6CB8853-EA44-4C05-A700-6BDAA00D58CE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
@@ -52,8 +50,6 @@
 				<Property Name="Music Transition List\{0FBAD245-F57F-47F3-953A-7D3EB628D2D5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{819022CC-6394-4367-97B7-AC53560DDC39}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{819022CC-6394-4367-97B7-AC53560DDC39}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Music Transition List\{C5B8428C-F3DD-49EC-8B41-AF1B94A774C6}\Scroll Position" Type="int32" Value="0"/>
-				<Property Name="Music Transition List\{C5B8428C-F3DD-49EC-8B41-AF1B94A774C6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewAyADMAQgA1ADkARQBDADMALQBFAEYARABCAC0ANABDADIAMQAtADgAOAAyAEMALQBEAEYAOABFAEMARgA3AEUAMwBDADkANAB9AAAAAQE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewAwAEYAQgBBAEQAMgA0ADUALQBGADUANwBGAC0ANAA3AEYAMwAtADkANQAzAEEALQA3AEQAMwBFAEIANgAyADgARAAyAEQANQB9AAAAAQF7AEIANwA5ADQARQBFADEARQAtADcAOABBAEIALQA0AEQAQgA3AC0AOQA0ADkAQwAtADgAQQA5ADUAQwBGADYARQA1AEIANQA3AH0AAAABAXsANAAwAEEAOQAyAEMAQgBDAC0AQwBDADgARAAtADQANgA3ADMALQBBADkANwBCAC0AQgA1ADkARAAzADAAOABBAEIAQgBEAEIAfQAAAAEBewA3AEMARQAxADYAOAAxADkALQAzADkARQAwAC0ANAA1AEUAMQAtADgANgA3AEIALQAyADAARgAwADQANAA0ADQAQgBDAEEAMwB9AAAAAQF7ADIAMwAzADIARQA0ADkAMAAtADgARABCADEALQA0ADMAOQAxAC0AQQBGADkANgAtADkARQA0ADIAQwA2AEUARQBGAEQAMQBFAH0AAAAAAQ=="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>

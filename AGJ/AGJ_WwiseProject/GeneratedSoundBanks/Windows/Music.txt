@@ -11,6 +11,6 @@ State	ID	Name	State Group			Notes
 	4143496951	Anxiety	Game_State			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	354147299	anxiety agressive 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Music\anxiety agressive 4_7_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Dark Music\anxiety agressive 4_7		2411407
-	1021825375	anxiety calm 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Music\anxiety calm 4_7_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Calm Music\anxiety calm 4_7		1274518
+	354147299	anxiety agressive 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Music\anxiety agressive 4_7_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Dark Music\anxiety agressive 4_7		32810496
+	1021825375	anxiety calm 4_7	Y:\Desktop\Create with code\AdventureGJ\AGJ\AGJ_WwiseProject\.cache\Windows\SFX\Music\anxiety calm 4_7_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Calm Music\anxiety calm 4_7		22226496
 
