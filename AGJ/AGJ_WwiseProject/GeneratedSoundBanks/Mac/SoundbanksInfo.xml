@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2D8C1969-0C86-9138-D3FB-CE6407E278AB}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{AB8A5CE5-65F9-FF61-A5BC-3C161214C4B2}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -33,6 +33,10 @@
 					<ShortName>Footsteps\footstep_5.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="575742114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>closing walls.wav</ShortName>
+					<CachePath>SFX/closing walls_992ADD20.wem</CachePath>
+				</File>
 				<File Id="586436993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_1.wav</ShortName>
 					<CachePath>SFX/Footsteps/footstep_1_10C4C929.wem</CachePath>
@@ -51,7 +55,7 @@
 				</File>
 				<File Id="765790335" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lighthouse.wav</ShortName>
-					<CachePath>SFX/lighthouse_926FD637.wem</CachePath>
+					<CachePath>SFX/lighthouse_E796E365.wem</CachePath>
 				</File>
 				<File Id="789204459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\footstep_4.wav</ShortName>
@@ -73,6 +77,19 @@
 						<MediaRef Id="618859090"/>
 						<MediaRef Id="739602359"/>
 						<MediaRef Id="953162010"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="29226244" Name="closing_walls" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="575742114"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="766723505" Id="1160234136" Name="Normal"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3345320291" Name="closing_walls_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="575742114"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2385628198" Name="footsteps" DurationType="OneShot" DurationMin="0.14041667" DurationMax="0.14041667">
@@ -150,17 +167,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{F38BB29F-A9BB-7DD4-5B68-7AA7281F43C5}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0F6028D8-A32B-2D06-307D-E871BA1D5F36}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
 				<File Id="354147299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\anxiety agressive 4_7.wav</ShortName>
-					<CachePath>SFX/Music/anxiety agressive 4_7_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Music/anxiety agressive 4_7_696A9007.wem</CachePath>
 				</File>
 				<File Id="1021825375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\anxiety calm 4_7.wav</ShortName>
-					<CachePath>SFX/Music/anxiety calm 4_7_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Music/anxiety calm 4_7_696A9007.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -205,5 +222,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C8125DE1-7A5C-0C5C-BE47-618033D4D70F}</FileHash>
+	<FileHash>{7119A541-8EF5-154F-09D8-35E1C14FAD73}</FileHash>
 </SoundBanksInfo>

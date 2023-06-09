@@ -49,6 +49,43 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="closing_walls" ID="{86FE718A-E6A0-4304-96A6-D9CF6922C696}">
+							<ChildrenList>
+								<Action Name="" ID="{67485445-2370-465D-A156-3316D581D2A1}" ShortID="264718359">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="closing walls" ID="{40E051B2-4B74-41D7-A937-D5FF2DE01A27}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{552A4BA6-578F-4262-9218-F9860E45B8BF}" ShortID="1064222609">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Normal" ID="{B8AEC962-7B46-4AAF-B59F-B7A09A1A7CD4}" WorkUnitID="{657520BB-FFAB-493D-BC54-E22582931708}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="closing_walls_stop" ID="{DC585D4E-35F6-4BE3-AC5A-ACC4620F458F}">
+							<ChildrenList>
+								<Action Name="" ID="{998DC7BC-0657-42CE-913D-48DF70284A31}" ShortID="949790861">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="closing walls" ID="{40E051B2-4B74-41D7-A937-D5FF2DE01A27}" WorkUnitID="{0A9DA478-5773-45AA-B8FC-30BADE729F66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="InteractiveMusic" ID="{BCBE7BAA-7837-435C-A76B-D4334EA10B68}">

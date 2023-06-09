@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.Rendering.HighDefinition;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -13,10 +11,7 @@ namespace StarterAssets
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{
-        public Volume volume;
-        private Exposure exposure;
-
-        [Header("Player")]
+		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
 		[Tooltip("Sprint speed of the character in m/s")]
@@ -126,17 +121,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-
-            if (volume.profile.TryGet(out exposure))
-            {
-                Debug.Log("CATriggered");
-				if(exposure.compensation.value < 0)
-				{
-					exposure.compensation.value += 0.1f;
-                }
-                
-            }
-        }
+		}
 
 		private void LateUpdate()
 		{
