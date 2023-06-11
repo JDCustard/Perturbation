@@ -45,9 +45,12 @@ public class ClosingWalls : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _Anim.SetBool("Play", true);
-        ClosingWallsEvent.Post(gameObject);
-        StartCoroutine(waiter());
+        if (other.CompareTag("Player"))
+        {
+            _Anim.SetBool("Play", true);
+            ClosingWallsEvent.Post(gameObject);
+            StartCoroutine(waiter());
+        }
     }
 
     private void OnTriggerExit(Collider other)
